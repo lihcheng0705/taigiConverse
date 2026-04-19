@@ -1,8 +1,8 @@
 # 台語 AI 即時語音對話 🎙️
 
-仿 ChatGPT 介面的台語即時語音對話服務。說台語、AI 用台語回答、用台語語音播放。
+仿 ChatGPT 介面的台語即時語音對話服務。說台語、AI 用國語回答(目前台語口說模型尚未開放)。
 
-![介面示意](https://via.placeholder.com/800x400?text=Taigi+AI+Chat+Interface)
+![介面示意](https://github.com/user-attachments/assets/a2b44b5b-18c3-45f3-929a-a0e141195b32)
 
 ---
 
