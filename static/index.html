@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>台語 AI 對話</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <span class="logo">🎙️ 台語 AI</span>
+        <button id="newChat" class="btn-new">＋ 新對話</button>
+      </div>
+      <div class="sidebar-footer">
+        <span id="statusDot" class="status-dot idle"></span>
+        <span id="statusText">就緒</span>
+      </div>
+    </aside>
+
+    <main class="chat-area">
+      <div class="messages" id="messages">
+        <div class="welcome">
+          <div class="welcome-icon">🗣️</div>
+          <h2>你好，我是台語 AI 助理</h2>
+          <p>按下麥克風鍵，開始用台語說話</p>
+        </div>
+      </div>
+
+      <div class="input-bar">
+        <div class="record-wrap">
+          <button id="recordBtn" class="record-btn" title="按下開始錄音，再按停止">
+            <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+            <span id="recordLabel">錄音</span>
+          </button>
+          <div id="timer" class="timer hidden">0:00</div>
+        </div>
+        <div id="waveform" class="waveform hidden">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <button id="stopBtn" class="stop-btn hidden" title="停止處理">
+          <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+          <span>停止</span>
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

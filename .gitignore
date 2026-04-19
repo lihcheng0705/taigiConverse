@@ -1,0 +1,50 @@
+# 環境變數（含 API 金鑰）
+.env
+
+# 模型權重（體積龐大）
+llm/
+G2PWModel/
+
+# BreezyVoice 程式碼（需另行 clone）
+BreezyVoice-code/
+
+# 暫存音訊
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# 本地開發檔案
+hokkien.py
+main.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

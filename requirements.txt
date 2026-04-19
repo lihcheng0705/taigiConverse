@@ -1,0 +1,11 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+openai>=1.30.0
+transformers>=4.40.0
+soundfile>=0.12.1
+numpy>=1.26.0
+librosa>=0.10.2
+torch>=2.2.0
+aiofiles>=23.2.1
